@@ -3,6 +3,8 @@ let frame = {
     "GameStarted":false,
     "score":0,
     "velocity":0,
+    "height":window.screen.height,
+    "width":window.screen.width,
 }
 
 let pipe1, pipe2 = {
