@@ -1,7 +1,7 @@
 ## Flappy Bird Svelte
 
 ## TODO
-- Learn how to create pipe pairs and move it
+- Use methods and return value to modify pipe state
 - Learn about bird animation
 - Provide additional setting for difficulty by increase bird velocity
 

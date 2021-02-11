@@ -10,25 +10,19 @@ let frame = writable({
     "generate_pipe_percent":0.7,
     "frame_speed":1,
     "min_top":70,
-    "max_top":400,
+    "max_top":350,
 });
 
-let first_pipe = writable({
+let pipe = {
     "height":0,
-    "top":0,
-    "gap":0,
+    "gap":150,
     "show":true,
     "left":0,
     "width":50,
-});
+    "move":function(speed){
+        this.left -= speed;
+        return this.left;
+    },
+};
 
-let second_pipe = writable({
-    "height":0,
-    "top":0,
-    "gap":0,
-    "show":true,
-    "left":0,
-    "width":50,
-});
-
-export {frame,first_pipe,second_pipe};
+export {frame,pipe};
