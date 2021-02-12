@@ -1,8 +1,8 @@
 ## Flappy Bird Svelte
 
 ## TODO
-- Use methods and return value to modify pipe state
 - Learn about bird animation
+- Learn how to work with bird velocity and gravity
 - Provide additional setting for difficulty by increase bird velocity
 
 ## Get started

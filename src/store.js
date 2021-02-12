@@ -19,10 +19,12 @@ let pipe = {
     "show":true,
     "left":0,
     "width":50,
-    "move":function(speed){
-        this.left -= speed;
-        return this.left;
-    },
-};
+}
 
-export {frame,pipe};
+let bird = {
+    "left":40,
+    "top":(window.screen.height-20)/2,
+    "size":20,
+}
+
+export {frame,pipe,bird};
